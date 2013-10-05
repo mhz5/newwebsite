@@ -1,0 +1,56 @@
+#about {
+	background: red;
+	height: 100%;
+	text-align: center;
+}
+
+#contact {
+	background: blue;
+}
+
+#experience {
+	background: green;
+}
+
+#dance {
+	background: yellow;
+}
+
+body {
+	background-image: url("../images/brushed_back/brushed.png");
+	font-family: 'Open Sans';
+	height: 100%;
+	margin: 0px;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+#content {
+	width: 410%;
+}
+
+header div,
+header h1 {
+	display: inline-block;
+}
+
+header {
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px 0px #333;
+	margin-left: 2%;
+	margin-right: 2%;
+
+	position: absolute;
+	vertical-align: text-center;
+	width: 96%;
+}
+
+.page {
+	display: inline-block;
+	height: 100%;
+	width: 24.5%;
+	-moz-user-select: none;
+  	-webkit-user-select: none;
+ 	-ms-user-select: none;
+}
+
